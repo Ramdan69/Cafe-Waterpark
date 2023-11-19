@@ -1,7 +1,7 @@
 {
   "name": "WaterPark Cafe",
   "short_name": "WaterPark Cafe",
-  "description": "Aplikasi Cafe sederhana dengan javascript PWA",
+  "description": "Aplikasi WaterPark Cafe",
   "icons": [
     {
       "src": "assets/images/parkkk.png",
