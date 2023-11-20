@@ -14,43 +14,116 @@
 
   <link rel="manifest" href="manifest.json">
 
-  <style>
-    .container {
-      max-width: 500px;
-      text-align: center !important;
+   <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
     }
 
-    .input-form {
-      padding: 5px;
-      margin: 5px;
-      display: block !important;
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
     }
 
-    #display-table {
-      min-width: 800px !important;
-      margin-top: 20px !important;
-      border-collapse: collapse;
+    section {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    #display-table>thead>tr>td,
-    #display-table>thead>tr>th,
-    #display-table>tbody>tr>td,
-    #display-table>tbody>tr>th {
-      width: auto;
-      border: 1px solid black;
-      margin: 3px;
-      padding: 3px;
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1em;
+      position: fixed;
+
+      bottom: 0;
+      width: 100%;
     }
   </style>
 </head>
 
 <body>
-  <h1 class="text-center text-dark">WaterPark Cafe</h1>
-  <div style="text-align:center">
-    <p>Selamat datang ditempat kami, disini kami menyediakan berbagai macam makanan dan minuman yang bisa dinikmati
-      bersama keluarga, teman, rekan kerja atau pasangan anda, tentunya dengan suasana tempat yang tenang, nyaman dan indah. </p>
-    <a href="order.html">Selamat Menikmati</a> 
-    <div>
+
+  <header>
+    <h1>WaterPark Cafe</h1>
+  </header>
+
+  <section>
+    <p>
+    <h6>Selamat datang di WaterPark Cafe
+      nikmati pengalaman kuliner yang istimewa di tempat kami bersama teman, keluarga, rekan kerja atau pasangan anda,
+      tempat kami dijamin bisa membuat anda menikmati setiap suapan dengan disuguhi suasana yang tenang,aman dan nyaman.
+      Berikut menu yang tersedia : </h6>
+    </p>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Chiken Wings</h4>
+      </p>
+      <img src="assets/images/chiken wings.png" alt="Chiken Wings" width="100">
+      <h6>Rp31,000<h6>
+    </div>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Chiken Katsu</h4>
+      </p>
+      <img src="assets/images/chiken katsu.png" alt="Chiken Katsu" width="100">
+      <h6>Rp22,000<h6>
+    </div>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Spaghetti</h4>
+      </p>
+      <img src="assets/images/spaghetti carbonara.png" alt="Spaghetti Carbonara" width="100">
+      <h6>Rp29,000<h6>
+    </div>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Mojito Blue</h4>
+      </p>
+      <img src="assets/images/mojito blue.png" alt="Mojito Blue" width="100">
+      <h6>Rp21,000<h6>
+    </div>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Lemon</h4>
+      </p>
+      <img src="assets/images/lemon squash.png" alt="Lemon Squash" width="100">
+      <h6>Rp21,000<h6>
+    </div>
+
+    <div style="display: inline-block; margin-right:20px;">
+      <p>
+        </h4>Thai Tea</h4>
+      </p>
+      <img src="assets/images/thai tea.png" alt="Thai Tea" width="100">
+      <h6>Rp21,000<h6>
+    </div>
+
+    <p>
+      <a href="order.html">
+        <button>Come on, order</button>
+      </a>
+    <p>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 WaterPark Cafe. All rights reserved.</p>
+  </footer>
+
       
   <script src="assets/js/jquery-3.3.1.slim.min.js"></script>
   <script src="assets/js/bootstrap.js"></script>
